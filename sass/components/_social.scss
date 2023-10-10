@@ -1,0 +1,35 @@
+.social {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  &__link {
+    &:link,
+    &:visited {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: $color-black;
+    }
+    &:hover,
+    &:active {
+    }
+  }
+
+  &__icon {
+    &--1 {
+      height: 22px;
+      width: 22px;
+    }
+
+    &--2 {
+      height: 24px;
+      width: 24px;
+    }
+
+    &--3 {
+      height: 21px;
+      width: 21px;
+    }
+  }
+}

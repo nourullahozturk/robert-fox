@@ -1,0 +1,33 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  width: 100%;
+  text-align: center;
+  color: $color-black;
+
+  &__text {
+    width: 800px;
+  }
+  &__author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  &__img-box {
+    display: flex;
+    justify-content: center;
+  }
+  &__img {
+    width: 64px;
+    height: 64px;
+
+    &--2 {
+      margin-left: -16px;
+    }
+  }
+  &__name {
+  }
+}

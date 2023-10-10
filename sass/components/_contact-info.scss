@@ -1,0 +1,19 @@
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  &--vertical {
+    flex-direction: column;
+  }
+
+  &__email {
+    text-decoration: none;
+    color: $color-primary;
+  }
+
+  &__tel {
+    text-decoration: none;
+    color: $color-black;
+  }
+}

@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  padding: 32px 64px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid $color-black-10;
+
+  &__copyright {
+    color: $color-black-75;
+  }
+
+  &__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
+  }
+
+  &__nav-item {
+  }
+
+  &__nav-link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: $color-black;
+      transition: all 0.3s;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-primary;
+    }
+  }
+}

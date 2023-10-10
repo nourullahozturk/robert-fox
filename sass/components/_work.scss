@@ -1,0 +1,108 @@
+.work {
+  width: 100%;
+  height: 785px;
+  padding: 0 128px;
+  margin-bottom: 128px;
+
+  position: relative;
+
+  &--1 {
+    background-color: $color-bg-1;
+  }
+  &--2 {
+    background-color: $color-bg-2;
+  }
+  &--3 {
+    background-color: $color-bg-3;
+  }
+
+  &__img-box {
+    position: absolute;
+    top: 128px;
+    left: 128px;
+    right: 128px;
+
+    height: 785px;
+
+    &--1 {
+      background-image: url(../img/work-1.png);
+      box-shadow: 0px 2.76726px 2.21381px 0px rgba(38, 31, 34, 0.02),
+        0px 6.6501px 5.32008px 0px rgba(38, 31, 34, 0.03),
+        0px 12.52155px 10.01724px 0px rgba(38, 31, 34, 0.04),
+        0px 22.33631px 17.86905px 0px rgba(38, 31, 34, 0.04),
+        0px 41.77761px 33.42209px 0px rgba(38, 31, 34, 0.05),
+        0px 100px 80px 0px rgba(38, 31, 34, 0.07);
+    }
+    // &--2 {
+    //   background-image: url(../img/card-1.png);
+    // }
+    &--3 {
+      background-image: url(../img/work-3.png);
+      box-shadow: 0px 2.76726px 2.21381px 0px rgba(38, 31, 34, 0.02),
+        0px 6.6501px 5.32008px 0px rgba(38, 31, 34, 0.03),
+        0px 12.52155px 10.01724px 0px rgba(38, 31, 34, 0.04),
+        0px 22.33631px 17.86905px 0px rgba(38, 31, 34, 0.04),
+        0px 41.77761px 33.42209px 0px rgba(38, 31, 34, 0.05),
+        0px 100px 80px 0px rgba(38, 31, 34, 0.07);
+    }
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__composition-img {
+    position: absolute;
+    height: 450px;
+    box-shadow: 0px 2.76726px 2.21381px 0px rgba(38, 31, 34, 0.02),
+      0px 6.6501px 5.32008px 0px rgba(38, 31, 34, 0.03),
+      0px 12.52155px 10.01724px 0px rgba(38, 31, 34, 0.04),
+      0px 22.33631px 17.86905px 0px rgba(38, 31, 34, 0.04),
+      0px 41.77761px 33.42209px 0px rgba(38, 31, 34, 0.05),
+      0px 100px 80px 0px rgba(38, 31, 34, 0.07);
+
+    &--1 {
+      top: 467px;
+      left: 28vw;
+      right: 28vw;
+      // top: 467px;
+      // left: 500px;
+      // right: 500px;
+      background-image: url(../img/card-1.png);
+      z-index: 4;
+    }
+
+    &--2 {
+      top: 128px;
+      left: 20vw;
+      right: 35vw;
+      // top: 128px;
+      // left: 360px;
+      // right: 640px;
+      background-image: url(../img/card-2.png);
+      z-index: 3;
+    }
+
+    &--3 {
+      top: 336px;
+      left: 7vw;
+      right: 48vw;
+      // top: 336px;
+      // left: 128px;
+      // right: 872px;
+      background-image: url(../img/card-3.png);
+      z-index: 2;
+    }
+    &--4 {
+      top: 256px;
+      left: 48vw;
+      right: 7vw;
+      // top: 256px;
+      // left: 872px;
+      // right: 128px;
+      background-image: url(../img/card-4.png);
+      z-index: 1;
+    }
+    background-size: cover;
+    background-position: center;
+  }
+}

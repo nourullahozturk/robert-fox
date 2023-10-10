@@ -1,0 +1,27 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    font-family: "proxima-nova", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 142.857% */
+    text-decoration: none;
+
+    border: none;
+    cursor: pointer;
+    background-image: $color-gradient;
+    color: $color-white;
+    padding: 24px 48px;
+    border-radius: 100px;
+  }
+
+  &__icon {
+    height: 32px;
+  }
+}

@@ -1,0 +1,121 @@
+body {
+  /* Paragraph */
+  font-family: "proxima-nova", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 142.857% */
+  color: $color-black-75;
+}
+
+.heading-primary {
+  /* H1 */
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 119px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 144px; /* 121.008% */
+  color: $color-black;
+}
+
+.heading-secondary {
+  /* H3 Bold */
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 72px; /* 120% */
+  color: $color-black;
+}
+
+.h3 {
+  /* H3 */
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: light;
+  line-height: 72px; /* 120% */
+}
+
+.h7 {
+  /* H7 */
+  font-family: "proxima-nova", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 160% */
+}
+
+.h7-regular {
+  /* H7 Regular */
+  font-family: "proxima-nova", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+.h4 {
+  /* H4 */
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 142.857% */
+}
+.h4-light {
+  /* H4 */
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 60px; /* 142.857% */
+}
+
+.h4-phone {
+  /* H4 Phone */
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 142.857% */
+}
+
+.h6 {
+}
+
+.label-text {
+  /* Label Text */
+  font-family: "proxima-nova", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 142.857% */
+}
+
+.label-text-tablet {
+  /* Button Text Tablet */
+  font-family: "proxima-nova", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 144.444% */
+}
+
+.h4-tablet {
+  /* H4 Tablet */
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 133.333% */
+}
+
+.p-tablet {
+  /* Paragraph Tablet */
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
